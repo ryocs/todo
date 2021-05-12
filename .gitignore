@@ -1,0 +1,12 @@
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+build
+
+package-lock.json
+
+*.vscode*

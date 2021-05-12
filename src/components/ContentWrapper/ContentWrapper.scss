@@ -1,0 +1,15 @@
+.content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.2);
+    max-width: 40vw;
+    max-height: 80vh;
+    width: 40vw;
+    height: 80vh;
+    overflow: hidden;
+    padding: 2em;
+}

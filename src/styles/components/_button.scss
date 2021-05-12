@@ -1,0 +1,33 @@
+.btn {
+    margin: 0 1em;
+    padding: 0.3em;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+    border-radius: $r-sm;
+    color: $color-fg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $color-border;
+
+    i {
+        color: $color-fg;
+    }
+
+    &:hover {
+        background: $color-primary-dark;
+        box-shadow: 4px 4px 5px $color-shadow;
+        transform: scale(1.01) translateY(-2px);
+        color: $color-primary-fg;
+        border: 1px solid $color-primary-dark;
+
+        & i {
+            color: $color-primary-darke-fg
+        }
+    }
+
+    &:active {
+        box-shadow: inset 4px 4px 5px $color-shadow;
+        transform: scale(.99) translateY(0);
+    }
+}

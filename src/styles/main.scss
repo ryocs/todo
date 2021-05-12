@@ -1,0 +1,28 @@
+@import "./variables.scss";
+@import "./components/button";
+@import "./components/checkBox";
+@import "./components/input";
+
+
+.width-fit {
+    width: fit-content;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-gap-5 {
+    :not(:first-child) {
+        margin-left: 5px;
+    }
+}
+
+.margin-default {
+    margin: 0.5em;
+}

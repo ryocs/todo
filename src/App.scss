@@ -1,0 +1,27 @@
+@import "./styles/variables.scss";
+@import "./styles/main.scss";
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $color-primary;
+    overflow: hidden;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0; 
+        left: -10em;
+        width: 140%; 
+        height: 140%;
+        background-image: url("./assets/images/bg.jpg");
+        background-size: contain;
+        background-repeat:repeat-y;
+        filter: grayscale(100%);
+        transform: rotate(10deg);
+        overflow: hidden;
+    }
+}
